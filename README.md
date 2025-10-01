@@ -30,8 +30,9 @@ The Jupyter notebook (`analysis_notebook.ipynb`) performs the following steps:
 1. **Load the Dataset** – Reads the CSV file into a pandas DataFrame and displays the first few rows.
 2. **Exploratory Data Analysis** – Summarizes the data, visualizes distributions of numeric features, and examines correlations and success rates across categorical variables.
 3. **Preprocessing** – Encodes categorical variables and splits the data into training and testing sets.
-4. **Modeling** – Trains a logistic regression and a random forest classifier to predict project success and evaluates their performance.
-5. **Visualization** – Displays confusion matrices to compare model predictions and discusses which model performs better.
+4. *
+5. *Modeling** – Trains a logistic regression and a random forest classifier to predict project success and evaluates their performance.
+6. **Visualization** – Displays confusion matrices to compare model predictions and discusses which model performs better.
 
 ## How to Use
 
@@ -59,3 +60,7 @@ Feel free to modify the dataset generation process or extend the analysis to inc
 ## License
 
 This project is released under the MIT License. You are free to use, modify, and distribute it for educational and professional purposes.
+performance.
+## Additional Experiments
+
+You can further experiment with hyperparameter tuning, cross-validation, and feature importance to improve model performance.
